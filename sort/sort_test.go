@@ -10,3 +10,9 @@ func TestQuickSort(t *testing.T) {
 	quickSort(inSample, 0, len(inSample)-1)
 	fmt.Println(inSample)
 }
+
+func TestMergeSort(t *testing.T) {
+	inSample := []int{5, 31, 5, 100, 1}
+	inSample = merSort(inSample)
+	fmt.Println(inSample)
+}
